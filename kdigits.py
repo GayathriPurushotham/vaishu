@@ -1,9 +1,8 @@
 n=int(input())
 k=int(input())
-b=input()
-b=b.split()
-print(b)
+a=input()
+a=a.split()
 sum=0
 for i in range(0,k):
-  sum=sum+int(b[i])
+  sum=sum+int(a[i])
 print(sum)
